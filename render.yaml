@@ -28,14 +28,9 @@ services:
         value: noreply@authapp.com
     healthCheckPath: /api/health
     autoDeploy: true
-    disk:
-      name: prisma-data
-      mountPath: /app/prisma
-      sizeGB: 1
 
 databases:
   - name: auth-app-db
     plan: free
     region: oregon
     databaseName: auth_app
-    user: postgres
