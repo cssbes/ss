@@ -2,7 +2,7 @@ services:
   - type: web
     name: auth-app
     env: docker
-    repo: https://github.com/YOUR_USERNAME/YOUR_REPO
+    repo: https://github.com/cssbes/ss
     plan: free
     dockerfilePath: ./Dockerfile
     envVars:
